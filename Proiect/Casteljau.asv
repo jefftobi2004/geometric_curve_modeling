@@ -1,0 +1,7 @@
+function [outputArg1,outputArg2] = Casteljau(tp, n, b0)
+for i = 1:n
+    eval(['b' num2str(i) ' = zeros(2, n - ' num2str(i) ' + 1);']);
+    for j = 1:(n - i + 1)
+        eval(['b' num2str(i) ' = b' num2str(j) '(:,j) .* (1-t) + b' num2str(j)])
+    end
+end
