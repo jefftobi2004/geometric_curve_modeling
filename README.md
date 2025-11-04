@@ -56,5 +56,5 @@ The final result is a **generated drawing** that closely follows the structure o
 
 1. Open all the **`.m`** files using **MATLAB** .  
 2. Make sure the reference image file `kakashi_bezier.jpg` is in the same directory.  
-3. Run the **`Drawing.m`** script to generate the curve-based reconstruction using Bezier and spline algorithms.
+3. Run the **`Drawing.m`** or **`Drawing_with_control_points.m`** (drawing + control points) scripts to generate the curve-based reconstruction using Bezier and spline algorithms.
 
